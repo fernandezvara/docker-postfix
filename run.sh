@@ -34,10 +34,7 @@ do
   echo "funkifake.com discard:" >> /etc/postfix/transport
 done
 
-
 echo "* relay:[$SMTP_SERVER]:587" >> /etc/postfix/transport
-
-
 
 postmap /etc/postfix/sasl_passwd
 
